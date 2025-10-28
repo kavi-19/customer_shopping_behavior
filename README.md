@@ -1,7 +1,37 @@
-Customer Behavior Data Analyst Portfolio Project
+🛒 Customer Shopping Behavior Analysis
+📘 Project Overview
 
-This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
-📌 Project Overview
+This project analyzes customer shopping behavior using transactional data from 3,900 purchases across various product categories.
+The objective is to uncover insights into:
+
+Spending patterns
+
+Customer segmentation
+
+Product preferences
+
+Subscription behavior
+
+These insights help guide data-driven business decisions and marketing strategies.
+📊 Dataset Summary
+
+Dataset Size:
+
+Rows: 3,900
+
+Columns: 18
+
+Key Features:
+
+Customer Demographics: Age, Gender, Location, Subscription Status
+
+Purchase Details: Item Purchased, Category, Purchase Amount, Season, Size, Color
+
+Shopping Behavior: Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Review Rating, Shipping Type
+
+Missing Data:
+
+37 missing values in the Review Rating column (imputed using median per product category)
 
 The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
